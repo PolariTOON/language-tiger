@@ -1,0 +1,4 @@
+'.source.tiger':
+  'editor':
+    'commentStart': '/* '
+    'commentEnd': ' */'
