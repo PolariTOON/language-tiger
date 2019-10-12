@@ -6,7 +6,8 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/tristoon/language-tiger",
+  "repository": "https://github.com/TrisTOON/language-tiger",
+  "author": "Tristan LE GODAIS",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
