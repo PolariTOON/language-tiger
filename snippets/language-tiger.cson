@@ -48,27 +48,27 @@
     'prefix': 'type'
     'body': 'type ${1:typeName} = ${2:otherType}$3'
     'description': 'new alias type'
-    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">type</span> … <span class="syntax--keyword syntax--operator syntax--comparison syntax--tiger">=</span> …'
+    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">type</span> … <span class="syntax--keyword syntax--operator syntax--relational syntax--tiger">=</span> …'
   'type … = array of …':
     'prefix': 'array'
     'body': 'type ${1:typeName} = array of ${2:itemType}$3'
     'description': 'new array type'
-    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">type</span> … <span class="syntax--keyword syntax--operator syntax--comparison syntax--tiger">=</span> <span class="syntax--keyword syntax--control syntax--tiger">array</span> <span class="syntax--keyword syntax--control syntax--tiger">of</span> …'
+    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">type</span> … <span class="syntax--keyword syntax--operator syntax--relational syntax--tiger">=</span> <span class="syntax--keyword syntax--control syntax--tiger">array</span> <span class="syntax--keyword syntax--control syntax--tiger">of</span> …'
   'type … = {…}':
     'prefix': 'record'
     'body': 'type ${1:typeName} = {${2:${3:fieldName}: ${4:fieldType}}}$5'
     'description': 'new record type'
-    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">type</span> … <span class="syntax--keyword syntax--operator syntax--comparison syntax--tiger">=</span> <span class="syntax--meta syntax--brace syntax--curly syntax--tiger">{</span>…<span class="syntax--meta syntax--brace syntax--curly syntax--tiger">}</span>'
+    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">type</span> … <span class="syntax--keyword syntax--operator syntax--relational syntax--tiger">=</span> <span class="syntax--meta syntax--brace syntax--curly syntax--tiger">{</span>…<span class="syntax--meta syntax--brace syntax--curly syntax--tiger">}</span>'
   'function …(…) = (…)':
     'prefix': 'procedure'
     'body': 'function ${1:functionName}(${2:${3:parameterName}: ${4:parameterType}}) = ${5:(\n\t$6\n)}$7'
     'description': 'new function'
-    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">function</span> …<span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span> <span class="syntax--keyword syntax--operator syntax--comparison syntax--tiger">=</span> <span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span>'
+    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">function</span> …<span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span> <span class="syntax--keyword syntax--operator syntax--relational syntax--tiger">=</span> <span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span>'
   'function …(…):… = (…)':
     'prefix': 'function'
     'body': 'function ${1:functionName}(${2:${3:parameterName}: ${4:parameterType}}):${5:returnType} = ${6:(\n\t$7\n)}$8'
     'description': 'new function'
-    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">function</span> …<span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span><span class="syntax--punctuation syntax--separator syntax--colon syntax--tiger">:</span>… <span class="syntax--keyword syntax--operator syntax--comparison syntax--tiger">=</span> <span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span>'
+    'rightLabelHTML': '<span class="syntax--keyword syntax--control syntax--tiger">function</span> …<span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span><span class="syntax--punctuation syntax--separator syntax--colon syntax--tiger">:</span>… <span class="syntax--keyword syntax--operator syntax--relational syntax--tiger">=</span> <span class="syntax--meta syntax--brace syntax--round syntax--tiger">(</span>…<span class="syntax--meta syntax--brace syntax--round syntax--tiger">)</span>'
   'var … := …':
     'prefix': 'auto'
     'body': 'var ${1:variableName} := ${2:initialValue}$3'
