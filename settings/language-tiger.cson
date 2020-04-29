@@ -1,7 +1,0 @@
-'.source.tiger':
-  'editor':
-    'commentStart': '/* '
-    'commentEnd': ' */'
-    'foldEndPattern': '^\\s*(\\)|\\]|\\}|\\bend\\b)'
-    'increaseIndentPattern': '(\\(|\\[|\\{|\\b(do|else|for|if|in|let|then|while)\\b)\\s*$'
-    'decreaseIndentPattern': '^\\s*(\\)|\\]|\\}|\\b(do|else|end|in|then)\\b)'

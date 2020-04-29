@@ -1,0 +1,191 @@
+{
+	"scopeName": "source.tiger",
+	"name": "Tiger",
+	"fileTypes": [
+		"tg",
+		"tgr",
+		"tig",
+		"tiger"
+	],
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#separators"
+		},
+		{
+			"include": "#groups"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#integers"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#identifiers"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.block.tiger",
+					"begin": "/\\*",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.begin.tiger"
+						}
+					},
+					"end": "\\*/",
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.end.tiger"
+						}
+					},
+					"patterns": [
+						{
+							"include": "#comments"
+						}
+					]
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.language.nil.tiger",
+					"match": "\\bnil\\b"
+				},
+				{
+					"name": "storage.type.int.tiger",
+					"match": "\\bint\\b"
+				},
+				{
+					"name": "storage.type.str.tiger",
+					"match": "\\bstring\\b"
+				},
+				{
+					"name": "variable.language.function.tiger",
+					"match": "\\b(chr|concat|exit|flush|getchar|not|ord|print|size|substring)\\b"
+				}
+			]
+		},
+		"groups": {
+			"patterns": [
+				{
+					"name": "meta.brace.round.tiger",
+					"match": "\\(|\\)"
+				},
+				{
+					"name": "meta.brace.curly.tiger",
+					"match": "{|}"
+				},
+				{
+					"name": "meta.brace.square.tiger",
+					"match": "\\[|\\]"
+				}
+			]
+		},
+		"identifiers": {
+			"patterns": [
+				{
+					"name": "variable.other.identifier.tiger",
+					"match": "\\b[A-Za-z][0-9A-Z_a-z]*\\b"
+				}
+			]
+		},
+		"integers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.decimal.tiger",
+					"match": "\\b[0-9]+\\b"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.tiger",
+					"match": "\\b(array|break|do|else|end|for|function|if|in|let|of|then|to|type|var|while)\\b"
+				}
+			]
+		},
+		"operators": {
+			"patterns": [
+				{
+					"name": "keyword.operator.relational.tiger",
+					"match": "=|<>|<|>=|>|<="
+				},
+				{
+					"name": "keyword.operator.logical.tiger",
+					"match": "\\||&"
+				},
+				{
+					"name": "keyword.operator.assignment.tiger",
+					"match": ":="
+				},
+				{
+					"name": "keyword.operator.arithmetic.tiger",
+					"match": "\\+|-|\\*|/"
+				}
+			]
+		},
+		"separators": {
+			"patterns": [
+				{
+					"name": "punctuation.separator.semicolon.tiger",
+					"match": ";"
+				},
+				{
+					"name": "punctuation.separator.comma.tiger",
+					"match": ","
+				},
+				{
+					"name": "punctuation.separator.colon.tiger",
+					"match": ":"
+				}
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.double.tiger",
+					"begin": "\"",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.string.begin.tiger"
+						}
+					},
+					"end": "\"",
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.string.end.tiger"
+						}
+					},
+					"patterns": [
+						{
+							"name": "constant.character.escape.tiger",
+							"match": "\\\\(n|t|\"|\\^[@-_]|0[0-9]{2}|1([01][0-9]|2[0-7])|[ \t\n\r\f]*\\\\)"
+						},
+						{
+							"name": "constant.character.escape.tiger",
+							"begin": "\\\\[ \t\n\r\f]*$",
+							"end": "^[ \t\n\r\f]*\\\\"
+						}
+					]
+				}
+			]
+		}
+	}
+}
