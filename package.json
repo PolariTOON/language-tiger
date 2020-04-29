@@ -1,6 +1,6 @@
 {
   "name": "language-tiger",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Tiger language support in Atom and Visual Studio Code",
   "keywords": [
     "language",
