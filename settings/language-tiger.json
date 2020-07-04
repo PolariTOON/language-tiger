@@ -3,7 +3,7 @@
 		"editor": {
 			"commentStart": "/* ",
 			"commentEnd": " */",
-			"foldEndPattern": "^\\s*(\\)|\\]|\\}|\\bend\\b)",
+			"foldEndPattern": "^\\s*(\\)|\\]|\\}|\\b(end|in)\\b)",
 			"increaseIndentPattern": "(\\(|\\[|\\{|\\b(do|else|for|if|in|let|then|while)\\b)\\s*$",
 			"decreaseIndentPattern": "^\\s*(\\)|\\]|\\}|\\b(do|else|end|in|then)\\b)"
 		}
@@ -16,6 +16,7 @@
 	},
 	"folding": {
 		"markers": {
+			"start": "(\\(|\\[|\\{|\\blet\\b)\\s*$",
 			"end": "^\\s*(\\)|\\]|\\}|\\bend\\b)"
 		}
 	},
