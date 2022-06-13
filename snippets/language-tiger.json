@@ -10,13 +10,13 @@
 			"prefix": "then",
 			"body": "then ${1:(\n\t$2\n)}$3",
 			"description": "then branch",
-			"rightLabelHTML": "<span class=\"syntax--keyword syntax--control syntax--tiger\">then</span> <span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span>…<span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span></span>"
+			"rightLabelHTML": "<span class=\"syntax--keyword syntax--control syntax--tiger\">then</span> <span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span>…<span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span>"
 		},
 		"else (…)": {
 			"prefix": "else",
 			"body": "else ${1:(\n\t$2\n)}$3",
 			"description": "else branch",
-			"rightLabelHTML": "<span class=\"syntax--keyword syntax--control syntax--tiger\">else</span> <span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span>…<span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span></span>"
+			"rightLabelHTML": "<span class=\"syntax--keyword syntax--control syntax--tiger\">else</span> <span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span>…<span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span>"
 		},
 		"else if … then (…)": {
 			"prefix": "elif",
@@ -124,12 +124,12 @@
 		"not(…)": {
 			"prefix": "not",
 			"body": "not(${1:i})$2",
-			"rightLabelHTML": "<span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">not</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span><span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">i</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span></span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span>"
+			"rightLabelHTML": "<span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">not</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span><span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">i</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span>"
 		},
 		"ord(…)": {
 			"prefix": "ord",
 			"body": "ord(${1:s})$2",
-			"rightLabelHTML": "<span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">ord</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span><span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">s</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--str syntax--tiger\">string</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span></span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span>"
+			"rightLabelHTML": "<span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">ord</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span><span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">s</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--str syntax--tiger\">string</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span>"
 		},
 		"print(…)": {
 			"prefix": "print",
@@ -139,7 +139,7 @@
 		"size(…)": {
 			"prefix": "size",
 			"body": "size(${1:s})$2",
-			"rightLabelHTML": "<span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">size</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span><span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">s</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--str syntax--tiger\">string</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span></span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span>"
+			"rightLabelHTML": "<span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">size</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">(</span><span class=\"syntax--variable syntax--other syntax--identifier syntax--tiger\">s</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--str syntax--tiger\">string</span><span class=\"syntax--meta syntax--brace syntax--round syntax--tiger\">)</span><span class=\"syntax--punctuation syntax--separator syntax--colon syntax--tiger\">:</span><span class=\"syntax--storage syntax--type syntax--int syntax--tiger\">int</span>"
 		},
 		"substring(…, …, …)": {
 			"prefix": "substring",
