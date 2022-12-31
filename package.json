@@ -1,7 +1,7 @@
 {
   "name": "language-tiger",
   "version": "0.5.1",
-  "description": "Tiger language support in Atom and Visual Studio Code",
+  "description": "Tiger language support in Atom, Pulsar and Visual Studio Code",
   "keywords": [
     "language",
     "grammar"
@@ -11,11 +11,12 @@
     "Snippets"
   ],
   "repository": "https://github.com/PolariTOON/language-tiger",
-  "author": "Tristan LE GODAIS",
+  "author": "PolariTOON",
   "publisher": "TrisTOON",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0",
+    "atom": "^1.0.0",
+    "pulsar": "^1.0.0",
     "vscode": "^1.44.0"
   },
   "contributes": {
