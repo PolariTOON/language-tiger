@@ -1,7 +1,9 @@
 {
   "name": "language-tiger",
   "version": "0.5.2",
+  "displayName": "Tiger syntax highlighter",
   "description": "Tiger language support in Atom, Pulsar and Visual Studio Code",
+  "icon": "./logotypes/language-tiger-200x200.png",
   "keywords": [
     "language",
     "grammar"
